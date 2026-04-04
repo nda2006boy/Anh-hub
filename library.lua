@@ -24,7 +24,7 @@ end;
 
 local SettingToggle = {}
 
-local Name = "BTConfig.JSON"
+local Name = "NDAConfig.JSON"
 
 pcall(function()
     if not pcall(function() readfile(Name) end) then
@@ -184,7 +184,7 @@ function Library:CreateWindow(hubname)
     end)
 
     Discord.MouseButton1Click:Connect(function()
-        (setclipboard or toclipboard)("https://discord.gg/AkDgH65MUF")
+        (setclipboard or toclipboard)("https://www.roblox.com/vi/users/4428477592/profile")
         wait(.1)
         game:GetService("StarterGui"):SetCore("SendNotification",{
             Title = "Discord",
@@ -237,7 +237,7 @@ function Library:CreateWindow(hubname)
     Server_ID.Position = UDim2.new(0, 230, 0, 320)
     Server_ID.Size = UDim2.new(0, 365, 0, 25)
     Server_ID.Font = Enum.Font.SourceSansSemibold
-    Server_ID.Text = "User : " .. NameID .. "     [ by tuananhiosdz ]";
+    Server_ID.Text = "User : " .. NameID .. "     [ by anh2k6boy ]";
     Server_ID.TextColor3 = Color3.fromRGB(255, 255, 255)
     Server_ID.TextSize = 14.000
     Server_ID.TextXAlignment = Enum.TextXAlignment.Right
