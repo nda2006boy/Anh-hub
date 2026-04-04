@@ -94,7 +94,7 @@ function Library:CreateWindow(hubname)
     Body.BorderColor3 = Color3.fromRGB(0, 0, 0)
     Body.BorderSizePixel = 0
     Body.Position = UDim2.new(0.258427024, 0, 0.217948765, 0)
-    Body.Size = UDim2.new(0, 600, 0, 350)
+    Body.Size = UDim2.new(0, 500, 0, 300)
     Body.ClipsDescendants = true
 
     Body_Corner.CornerRadius = UDim.new(0, 5)
