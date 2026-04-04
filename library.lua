@@ -292,7 +292,7 @@ toggle_Image.BackgroundTransparency = 1.000
 toggle_Image.BorderColor3 = Color3.fromRGB(0, 0, 0)
 toggle_Image.BorderSizePixel = 0
 toggle_Image.Size = UDim2.new(0, 40, 0, 40)
-toggle_Image.Image = "http://www.roblox.com/asset/?id=75774010417827"
+toggle_Image.Image = "http://www.roblox.com/asset/?id=131209248846118"
 
 -- Hiệu ứng Hover vào Toggle
 toggle_Image.MouseEnter:Connect(function()
