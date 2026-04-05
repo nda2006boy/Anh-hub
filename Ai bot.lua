@@ -210,3 +210,6 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainFrame.Name = "MainFrame"
 MainFrame
+Settings.Enabled = true
+Settings.AimbotSpeed = 0.1 -- Chỉnh tốc độ nhanh nhất để dễ nhận biết
+print("Aimbot da kich hoat! Hay thu nhan giu phim Z gan quai hoac nguoi choi.")
